@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+        /* font-family: 'lato', sans-serif; */
+
+        @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+        /*font-family: 'Source Sans Pro', sans-serif; */
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .logo {
+            width: 60px;
+            height: 60px;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+
+        .logo img {
+            width: 100%;
+            height: 100%;
+            border-radius: 40px
+        }
+
+
+        .navbar1 {
+            display: flex;
+            height: 10vh;
+            background-color: #205786;
+            position: sticky;
+            top: 0;
+
+        }
+
+        #rightthree {
+            margin-left: 145vh;
+            margin-top: 12px;
+        }
+
+        #search1 {
+            width: 33vh;
+            height: 5vh;
+        }
+
+        #search1:hover {
+            background-color: white;
+        }
+
+        #btnsearch {
+            width: 10vh;
+            height: 5.7vh;
+            margin-left: -5px;
+        }
+
+        #btnsearch:hover {
+            color: white;
+            background-color: black;
+        }
+
+        /* #backg h1{background-image:url(https://1.bp.blogspot.com/-YVfNVRDLl6Q/XuiHD_7oPbI/AAAAAAAADwk/u39TglKOOPMeU6qfRUeVD_kSlJq9i8-kgCK4BGAsYHg/w1200-h630-p-k-no-nu/shutterstock_465558758-illustration-of-india-background-showing-its-culture-and-diversity-with-monument-dance-and-festival.jpg);height:450px;text-align:center;padding-top:200px;font-size:3rem;color:white;border:2px solid red;background-repeat: no-repeat;} */
+
+
+
+        #backg h1 {
+            background-image: url(https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287_1280.jpg);
+            height: 450px;
+            text-align: center;
+            padding-top: 200px;
+            background-repeat: no-repeat;
+            font-size: 3rem;
+            color: white;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        #all {
+            width: 160vh;
+            margin-left: 20vh;
+            font-size: 1.2rem;
+            border: 2px solid rgb(167, 165, 165);
+            border-radius: 7px;
+            margin-top: 40px;
+            padding: 7vh;
+            text-align: justify;
+            font-family: 'Source Sans Pro', sans-serif;
+            margin-bottom: 100px;
+        }
+
+
+
+
+
+
+        #vss {
+            font-size: 1.2rem;
+            height: 40px;
+            text-align: center;
+            ;
+            background-color: #205786;
+            font-family: 'lato', sans-serif;
+            /* position: relative;
+    top:10px;  */
+        }
+
+        #vss p {
+            color: white;
+            padding: 7px
+        }
+    </style>
+</head>
+<div style="width:1270px;margin:0px auto;overflow:hidden;">
+<body>
+    <nav class="navbar1">
+        <div class="logo"><a href="index.html"><img src="./img/logo.png"></a></div>
+        <div id="rightthree">
+            <form action="search.html">
+                <input type="text" id="search1" name="search" placeholder="search - keywords, phrase" required>
+                <button id="btnsearch">search</button>
+            </form>
+        </div>
+    </nav>
+
+
+    <div id="backg">
+        <h1>INDIA A-MEGA BIODIVERSITY NATION</h1>
+    </div>
+    <div id="all">
+        <div class="start">
+            <h2>Megadiverse Countries</h2>
+            <p>The term megadiverse country refers to any one of a group of nations that harbor the majority of Earth's
+                species and high numbers of endemic species. Conservation International identified 17 megadiverse
+                countries in 1998. Many of them are located in, or partially in, tropical or subtropical regions.</p>
+            <p>Megadiversity means exhibiting great biodiversity. The main criterion for megadiverse countries is
+                endemism at the level of species, genera and families. A megadiverse country must have at least 5,000
+                species of endemic plants and must border marine ecosystems.</p>
+            <p>In 2002, Mexico formed a separate organization focusing on Like-Minded Megadiverse Countries, consisting
+                of countries rich in biological diversity and associated traditional knowledge. This organization
+                includes all but three megadiverse countries as identified by Conservation International.</p>
+
+        </div>
+        <div id="mega">
+            <h2>List of megadiverse countries</h2>
+            <ul>
+                <li> Australia</li>
+                <li>Brazil</li>
+                <li>China</li>
+                <li> Colombia</li>
+                <li> Democratic Republic of the Congo</li>
+                <li>Ecuador</li>
+                <li>India</li>
+                <li> Indonesia</li>
+                <li> Madagascar</li>
+                <li> Malaysia</li>
+                <li> Mexico</li>
+                <li> Papua New Guinea</li>
+                <li>Peru</li>
+                <li> Philippines</li>
+                <li> South Africa</li>
+                <li>United States</li>
+                <li> Venezuela</li>
+            </ul>
+        </div>
+        <p style="color:crimson;text-align:center;">TOP 20 Global Biodiversity Index</p>
+        <div id="table">
+            <table style="width:100%;margin-top:20px;">
+                <tr>
+                    <th style="width:150px;background-color:rgb(154, 157, 157);">Sr no.</th>
+                    <th style="width:250px;background-color:rgb(154, 157, 157)">Country</th>
+                    <th style="width:150px;background-color:rgb(154, 157, 157)">Bird</th>
+                    <th style="width:150px;background-color:rgb(154, 157, 157)">Amphibian</th>
+
+                    <th style="width:150px;background-color:rgb(154, 157, 157)">Fish</th>
+                    <th style="width:150px;background-color:rgb(154, 157, 157)">Mammal</th>
+                    <th style="width:150px;background-color:rgb(154, 157, 157)">Reptile</th>
+                    <th style="width:450px;background-color:rgb(154, 157, 157)">Vascular Plant</th>
+                    <th style="width:450px;background-color:rgb(154, 157, 157)">Biodiversity Index</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Brazil</td>
+                    <td>564</td>
+                    <td>1,198</td>
+                    <td>786</td>
+                    <td>775</td>
+                    <td>145</td>
+                    <td>287</td>
+                    <td>110.67</td>
+
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Indonesia</td>
+                    <td>675</td>
+                    <td>1,345</td>
+                    <td>560</td>
+                    <td>129</td>
+                    <td>90</td>
+                    <td>2,960</td>
+                    <td>138.56</td>
+
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td> Colombia</td>
+                    <td>564</td>
+                    <td>675</td>
+                    <td>425</td>
+                    <td>126</td>
+                    <td>98</td>
+                    <td>1,458</td>
+                    <td>198.45</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>China</td>
+                    <td>1,085</td>
+                    <td>459</td>
+                    <td>87</td>
+                    <td>560</td>
+                    <td>1,673</td>
+                    <td>245</td>
+                    <td>89.67</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Mexico</td>
+                    <td>453</td>
+                    <td>522</td>
+                    <td>985</td>
+                    <td>1,902</td>
+                    <td>560</td>
+                    <td>451</td>
+                    
+                    <td>78.56</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td> Australia</td>
+                    <td>853</td>
+                    <td>527</td>
+                    <td>985</td>
+                    <td>1,532</td>
+                    <td>1,671</td>
+                    <td>531</td>
+                    
+                    <td>103.96</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Peru</td>
+                    <td>1,562</td>
+                    <td>672</td>
+                    <td>167</td>
+                    <td>904</td>
+                    <td>2,562</td>
+                    <td>199</td>
+                    
+                    <td>50.35</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>India</td>
+                    <td>1,212</td>
+                    <td>446</td>
+                    <td>2,201</td>
+                    <td>440</td>
+                    <td>715</td>
+                    <td>672</td>
+                    <td>370.61</td>
+                    
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Ecuador</td>
+                    <td>637</td>
+                    <td>2,178</td>
+                    <td>108</td>
+                    <td>672</td>
+                    <td>902</td>
+                    <td>1,563</td>
+                
+                    <td>109.56</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>United States</td>
+                    <td>748</td>
+                    <td>892</td>
+                    <td>2,674</td>
+                    <td>1,453</td>
+                    <td>2,674</td>
+                    <td>563</td>
+                    <td>134.67</td>
+                    
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td> Venezuela</td>
+                    <td>964</td>
+                    <td>1,198</td>
+                    <td>786</td>
+                    <td>275</td>
+                    <td>845</td>
+                    <td>587</td>
+                    <td>150.67</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Papua New Guinea</td>
+                    <td>655</td>
+                    <td>2,345</td>
+                    <td>160</td>
+                    <td>129</td>
+                    <td>970</td>
+                    <td>2,120</td>
+                    <td>48.56</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td> Myanmar</td>
+                    <td>353</td>
+                    <td>927</td>
+                    <td>285</td>
+                    <td>2,532</td>
+                    <td>1,183</td>
+                    <td>271</td>
+                    
+                    <td>93.96</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Vietnam</td>
+                    <td>1,362</td>
+                    <td>872</td>
+                    <td>967</td>
+                    <td>304</td>
+                    <td>1,592</td>
+                    <td>389</td>
+                    
+                    <td>93.35</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td> Malaysia</td>
+                    <td>964</td>
+                    <td>375</td>
+                    <td>925</td>
+                    <td>326</td>
+                    <td>380</td>
+                    <td>2,458</td>
+                    <td>91.45</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>Democratic Republic of the Congo</td>
+                    <td>264</td>
+                    <td>895</td>
+                    <td>1,564</td>
+                    <td>748</td>
+                    <td>998</td>
+                    <td>2,898</td>
+                    <td>56.03</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td> Tanzania</td>
+                    <td>367</td>
+                    <td>1,378</td>
+                    <td>98</td>
+                    <td>372</td>
+                    <td>472</td>
+                    <td>2,563</td>
+                
+                    <td>105.34</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td> Bolivia</td>
+                    <td>67</td>
+                    <td>546</td>
+                    <td>1,083</td>
+                    <td>582</td>
+                    <td>272</td>
+                    <td>2,893</td>
+                
+                    <td>67.65</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td> South Africa</td>
+                    <td>1,576</td>
+                    <td>673</td>
+                    <td>2,564</td>
+                    <td>167</td>
+                    <td>193</td>
+                    
+                    <td>2,830</td>
+                    <td>89.47</td>
+                </tr>
+                <tr>
+                    <td>18</td>
+                    <td>Thailand</td>
+                    <td>1,990</td>
+                    <td>783</td>
+                    <td>982</td>
+                    <td>1,758</td>
+                    <td>3,782</td>
+                    <td>1,638</td>
+                    <td>78.67</td>
+
+                </tr>
+            </table>
+</div>
+            <p style="color:blueviolet">India is one of the 12 mega-diversity Countries in the world.</p>
+            <p>As per the ministry of Environment and Forests, Government of India(2000) records, India has 47,000
+                species of plants and 81,000 species of animals which is about 7%, and 6.5% respectively of global
+                floara and fauna.</p>
+            <p>Distribution of species in some major groups of flora and fauna in India</p>
+            <div id="table">
+            <table style="width:100%;margin-top:20px;">
+                <tr>
+                    <th style="width:150px;background-color:rgb(154, 157, 157);">Plants</th>
+                    <th style="width:250px;background-color:rgb(154, 157, 157)">Number</th>
+                    <th style="width:150px;background-color:rgb(154, 157, 157)">Animals</th>
+                    <th style="width:150px;background-color:rgb(154, 157, 157)">Number</th>
+                </tr>
+                <tr>
+                    <td>Bacterai</td>
+                    <td>850</td>
+                    <td>Lowee groups</td>
+                    <td>9979</td>
+                </tr>
+                <tr>
+                    <td>Fungi</td>
+                    <td>23,000</td>
+                    <td>Mollusca</td>
+                    <td>5042</td>
+                </tr>
+                <tr>
+                    <td>Algae</td>
+                    <td>2500</td>
+                    <td>Arthropoda</td>
+                    <td>57,897</td>
+                </tr>
+                <tr>
+                    <td>Bryophytes</td>
+                    <td>3000</td>
+                    <td>Pisces</td>
+                    <td>1,789</td>
+                </tr>
+                <tr>
+                    <td>Pteridophytes</td>
+                    <td>1965</td>
+                    <td>Amphibia</td>
+                    <td>45,677</td>
+                </tr>
+                <tr>
+                    <td>Gymnosperm</td>
+                    <td>1978</td>
+                    <td>Reptiles</td>
+                    <td>5,162</td>
+                </tr>
+                <tr>
+                    <td>Angiosperm</td>
+                    <td>536</td>
+                    <td>Birds</td>
+                    <td>473</td>
+                </tr></table>
+                <br>
+                <ul>
+                    <li>Endemism:</li>
+                </ul>
+                <p>Species which are restricetd only to a particular area are known as endemic. India shows a good number of endemic species. About 62% of amphibians and 50% of lizards are endemic to India. Western ghats are the site of maximum endemism.</p>
+                <br>
+                <ul>
+                    <li>Center of origin:</li>
+                </ul>
+                <p>
+                    A large number of species are known to have origiginated in India. Nearly 5000 species of flowering plants had their origin to india. From agro-diversity point of view also our country is quite rich. India has been the center of origin of 166 species of crop plants and 320 species of wild relayives of cultivated crops, thereby providing a broad spectrum of diversity of traits for our crop plants.
+                </p>
+
+                <br>
+                <ul>
+                    <li>Mega Diversity Hotspots in India</li>
+                </ul>
+                <br>
+                <ol>
+                    <li>Sundaland</li>
+                    <li>Indo-Burma Region</li><li>The Himalayas</li><li>The Western Ghats</li>
+                </ol>
+        </div>
+
+
+
+
+
+
+</body>
+</div>
+</html>

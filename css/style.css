@@ -1,0 +1,811 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+/* font-family: 'lato', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+/*font-family: 'Source Sans Pro', sans-serif; */
+
+
+.one p{color:red;}
+.one p:hover{color:blue}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+.logo{width:60px;height:60px;}
+.logo img{width:100%;height:100%;border-radius:40px}
+
+
+.navbar1 {
+    display: flex;
+    height: 10vh;
+
+}
+
+#rightthree {
+    margin-left: 105vh;
+    margin-top: 12px;
+}
+
+#search1 {
+    width: 33vh;
+    height: 5vh;
+}
+
+#search1:hover {
+    background-color: white;
+}
+
+#btnsearch {
+    width: 10vh;
+    height: 5.7vh;
+    margin-left: -5px;
+}
+
+#btnsearch:hover {
+    color: white;
+    background-color: black;
+}
+
+#twoleft ul b {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    font-size: 0.9rem;
+    padding-left: 10vh;
+    padding-top: 2.3vh;
+}
+
+#twoleft ul b li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#twoleft ul b li {
+    padding: 10px
+}
+
+#twoleft ul b li :hover {
+    text-decoration: underline;
+}
+
+/* navbar 2designing */
+.navbar2 {
+    height: 22vh;
+    display: flex;
+    align-items: center;
+    padding-left: 40px
+}
+
+#uen {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar2 h1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#ashok {
+    width: 15vh;
+    /* margin-left: 40px; */
+    margin-top: px
+}
+
+#ashok img {
+    width: 100%
+}
+
+#digitalindia {
+    width: 28vh;
+    margin-left: 32vh
+}
+
+#digitalindia img {
+    width: 100%
+}
+
+#ajadila {
+    width: 30vh;
+
+}
+
+#ajadila img {
+    width: 100%
+}
+
+/*navbar 2 end*/
+/*navbar3 start*/
+.slideleft {
+    background-color: #333333;
+    height: 35px;
+    display: flex;
+    padding-left: 18vh
+}
+
+#bh {
+    width: 150vh;
+    color: yellow;
+    font-family: 'lato', sans-serif;
+    font-size: 1.2rem;
+    padding-top: 7px;
+}
+
+.slideleft img {
+    border-radius: 30px;
+    height: 30px;
+    margin-top: 3px
+}
+
+#btnviewall {
+    height: 25px;
+    color: blue;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+/* Styling the area of the slides */
+.allslidei {
+    background-color: #205786;
+    height: 500px;
+    display: flex;
+}
+
+#vgh {
+    width: 43%;
+    font-size: 1.1rem;
+
+}
+
+#upsl {
+    height: 88.7%;
+    margin-left: 20px;
+    /* background-image:url("/img/imgslide.png");
+    opacity: 0.5; */
+
+}
+
+#vgh ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'lato', sans-serif;
+}
+
+#vgh ul li a:hover {
+    text-decoration: underline;
+}
+
+#slideshow {
+    overflow: hidden;
+
+    width: 57%;
+
+}
+
+
+/* Style each of the sides
+with a fixed width and height */
+
+.slide {
+    float: left;
+    height: 500px;
+    width: 728px;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%
+}
+
+/* Add animation to the slides */
+
+.slide-wrapper {
+
+    /* Calculate the total width on the
+  basis of number of slides */
+    width: calc(728px * 5);
+
+    /* Specify the animation with the
+  duration and speed */
+    animation: slide 20s ease infinite;
+}
+
+
+
+/* Define the animation
+for the slideshow */
+
+@keyframes slide {
+
+    /* Calculate the margin-left for
+  each of the slides */
+    20% {
+        margin-left: 0px;
+    }
+
+    40% {
+        margin-left: calc(-728px * 1);
+    }
+
+    60% {
+        margin-left: calc(-728px * 2);
+    }
+
+    80% {
+        margin-left: calc(-728px * 3);
+    }
+
+    90% {
+        margin-left: calc(-728px * 4);
+    }
+}
+
+
+.bio1 {
+    width: 120vh;
+    margin-left: 40vh;
+    /* padding-left:5vh;padding-right:5vh; */
+    margin-top: 10vh;border:2px solid rgb(167, 165, 165);border-radius:7px;padding:7vh;text-align:justify;
+}
+
+.bio1 h2 {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2rem;
+    font-weight: 300
+}
+
+.bio1 h2:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+.bio1 p {
+    font-family: 'lato', sans-serif;
+    font-size: 1.1rem;
+    line-height: 4vh;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.bio2 h2 {
+    font-size: 2rem;
+    font-family: 'lato', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.aal {
+    margin-top: 15vh;
+    display: flex;
+    padding-left: 110px
+}
+
+.aal h3 {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: aquamarine
+}
+
+#biod1 {
+    width: 53vh;
+    height: 77vh;
+    border: 4px solid #205786;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+#biod1:hover {
+    border: 4px solid rgb(210, 81, 30)
+}
+
+#biod2:hover {
+    border: 4px solid rgb(210, 159, 30)
+}
+
+#biod3:hover {
+    border: 4px solid rgb(42, 210, 30)
+}
+
+#genim img {
+    width: 100%;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+#biod1 p {
+    padding-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    ;
+}
+
+#biod2 p {
+    padding-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    ;
+}
+
+#biod3 p {
+    padding-left: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    ;
+}
+
+#biod2 {
+    width: 53vh;
+    height: 78vh;
+    border: 4px solid #205786;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    margin-top: -5vh;
+}
+
+#spum img {
+    width: 100%;
+    height: 210px;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+#biod3 {
+    width: 53vh;
+    height: 77vh;
+    border: 4px solid #205786;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+#spim img {
+    width: 100%;
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+    height: 210px;
+}
+
+.container {
+    background-color: rgb(6, 128, 169);
+    width: 100%;
+    height: 700px;
+}
+
+#allcon {
+    margin-left: 23vh;
+}
+
+.imgh {
+    width: 100%;
+    height: 300px;
+    margin-top: 50px
+}
+
+.imgh img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.item1 {
+    width: 80vh;
+    height: 32vh;
+    color: white;
+    letter-spacing: 5px;
+}
+
+.item1 p {
+    font-family: 'lato', sans-serif;
+    font-weight: 900
+}
+
+.item1 h1 {
+    font-size: 3rem;
+}
+
+.item2 {
+    width: 39vh;
+    height: 32vh;
+    margin-left: 2.5px;
+    position: relative;
+}
+
+.one {
+    position: absolute;
+    top: 70px;
+    left: 1px;
+    font-size: 1.4rem;
+    color: rgb(255, 253, 253);
+    font-family: 'lato', sans-serif;
+    font-weight: 600
+}
+
+.item2 img {
+    width: 100%;
+    height: 100%
+}
+
+.item3 {
+    width: 39vh;
+    height: 32vh;
+    margin-left: 2.5px;
+    position: relative;
+}
+
+.item3 img {
+    height: 100%;
+    width: 100%
+}
+
+#first3 {
+    display: flex;
+}
+
+.item4 {
+    width: 40vh;
+    height: 32vh;
+    margin-top: 2.5px;
+    position: relative;
+    margin-left: 3px;
+}
+
+.item5 {
+    width: 39vh;
+    height: 32vh;
+    margin-left: 2.5px;
+    margin-top: 2.5px;
+    position: relative;
+}
+
+.item6 {
+    width: 39vh;
+    height: 32vh;
+    margin-left: 2.5px;
+    margin-top: 2.5px;
+    position: relative;
+}
+
+.item7 {
+    width: 39vh;
+    height: 32vh;
+    margin-left: 2.5px;
+    margin-top: 2.5px;
+    position: relative;
+}
+
+.item8 {
+    width: 40vh;
+    height: 32vh;
+    margin-left: 2.5px;
+    margin-top: 2.5px;
+    position: relative;
+}
+
+.item9 {
+    width: 39vh;
+    height: 32vh;
+    margin-left: 2.5px;
+    margin-top: 2.5px;
+    position: relative;
+}
+
+.item0 {
+    width: 39vh;
+    height: 32vh;
+    margin-left: 2.5px;
+    margin-top: 2.5px;
+    position: relative;
+}
+.beauty{width: 39vh;
+    height: 32vh;
+    margin-left: 2.5px;
+    margin-top: 2.5px;
+    position: relative;}
+
+.beauty img{width: 100%;
+    height: 100%}
+#first4 {
+    display: flex;
+}
+
+.item4 img {
+    width: 100%;
+    height: 100%
+}
+
+.item5 img {
+    width: 100%;
+    height: 100%
+}
+
+.item6 img {
+    width: 100%;
+    height: 100%
+}
+
+.item7 img {
+    width: 100%;
+    height: 100%
+}
+
+.item8 img {
+    width: 100%;
+    height: 100%
+}
+
+.item9 img {
+    width: 100%;
+    height: 100%
+}
+
+.item0 img {
+    width: 100%;
+    height: 100%
+}
+
+#third1 {
+    display: flex;
+}
+
+#cbd {
+    display: flex;
+    width: 520px;
+    ;
+    font-size: 1.2rem;
+    font-weight: 800
+}
+
+#cbd img {
+    width: 280px;
+}
+
+#cbd a {
+    height: 20px;
+    text-decoration: none;
+    font-family: 'lato', sans-serif;
+    ;
+    color: black;
+    margin-top: 60px;
+    padding-left: 10px
+}
+
+#cbd1 a:hover {
+    height: 20px;
+    text-decoration: underline;
+    color: #205786;
+}
+
+#cbd2 a:hover {
+    height: 20px;
+    text-decoration: underline;
+    color: #205786;
+}
+
+#cbd3 a:hover {
+    height: 20px;
+    text-decoration: underline;
+    color: #205786
+}
+
+#cbd a:hover {
+    height: 20px;
+    text-decoration: underline;
+    color: #205786
+}
+
+
+#cbd1 {
+    display: flex;
+    ;
+    width: 520px;
+    margin-left: 80px;
+    font-family: 'lato', sans-serif;
+    ;
+    font-size: 1.2rem;
+    font-weight: 800
+}
+
+#cbd1 img {
+    width: 280px;
+}
+
+#cbd1 a {
+    height: 20px;
+    text-decoration: none;
+    ;
+    color: black;
+    margin-top: 60px;
+    padding-left: 10px
+}
+
+
+#cbd2 {
+    display: flex;
+    ;
+    width: 520px;
+    font-family: 'lato', sans-serif;
+    ;
+    font-family: 'lato', sans-serif;
+    font-weight: 800;
+    font-size: 1.2rem;
+    font-weight: 800
+}
+
+#cbd2 img {
+    width: 280px;
+}
+
+#cbd2 a {
+    height: 20px;
+    text-decoration: none;
+    ;
+    color: black;
+    margin-top: 60px;
+    padding-left: 10px
+}
+
+
+#cbd3 {
+    display: flex;
+    ;
+    width: 500px;
+    margin-left: 80px;
+    font-family: 'lato', sans-serif;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+#cbd3 img {
+    width: 280px;
+}
+
+#cbd3 a {
+    height: 20px;
+    text-decoration: none;
+    ;
+    color: black;
+    margin-top: 60px;
+    padding-left: 10px
+}
+
+.two2 {
+    display: flex;
+}
+
+.two22 {
+    display: flex;
+    margin-top: 60px
+}
+
+
+
+
+.footer {
+
+    background-color: black;
+    height: 5vh;
+    text-align: center;
+    color: white;
+    font-family: 'lato', sans-serif;
+    padding-top: 5px;
+}
+
+.foimg {
+    width: 100%;
+    height: 320px;
+    margin-top: 100px;
+}
+
+.foimg img {
+    width: 100%;
+    height: 100%
+}
+
+
+
+
+
+
+/* https://cdn.pixabay.com/photo/2017/07/24/19/57/tiger-2535888_1280.jpg */
+
+footer {
+    background-color: black;
+    bottom: 0;
+}
+
+.media {
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.media h3 {
+    color: white;
+    width: 50%;
+    font-family: 'lato', sans-serif;
+    padding: 50px;
+}
+
+.follow {
+    width: 50%;
+    display: flex;
+    padding: 20px 20px;
+    justify-content: flex-end;
+}
+
+.youtube img {
+    height: 33px;
+    padding: 2px 25px;
+    margin: 2px 5px;
+}
+
+.fb img {
+    height: 33px;
+    padding: 2px 25px;
+    margin: 2px 5px;
+}
+
+.twitter img {
+    height: 33px;
+    padding: 2px 25px;
+    margin: 2px 5px;
+}
+
+.instagram img {
+    height: 33px;
+    padding: 2px 25px;
+    margin: 2px 5px;
+}
+
+
+#information {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+#information h3 {
+    color: white;
+    text-decoration: none;
+    font-family: 'lato', sans-serif;
+    padding: 50px;
+}
+
+#Explore {
+    display: flex;
+}
+
+#Explore li {
+    text-decoration: none;
+    list-style: none;
+    padding: 2px 25px;
+    margin: 2px 5px;
+}
+
+#Explore li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
+}
+
+#Explore li a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+#vss {
+    font-size: 1.2rem;
+    height: 40px;
+    text-align: center;
+    /* position: relative;
+    top:10px;  */
+}
+
+#vss p {
+    color: white;
+    padding: 7px
+}
