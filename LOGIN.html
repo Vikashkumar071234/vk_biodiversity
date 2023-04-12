@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function singh() { window.alert("you want to create account"); }
+        function sing() { window.alert("you want to login your account"); }
+
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+        /* font-family: 'lato', sans-serif; */
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .logo{width:50px;height:50px;margin-left:10px;cursor: pointer;}
+        .logo img{width:100%;height:100%;border-radius:40px;border:1.6px solid white;}
+        
+        
+        .navbar1 {
+            display: flex;
+            height: 10vh;background-color:#205786;justify-content:space-between;align-items :center;
+        
+        }
+      
+        
+        #rightthree {
+           
+            margin-right:20px;
+        }
+        
+        
+        #search1 {
+            width: 33vh;
+            height: 5vh;
+        }
+        
+        #search1:hover {
+            background-color: white;
+        }
+        
+        #btnsearch {
+            width: 10vh;
+            height: 5.7vh;
+            margin-left: -5px;
+        }
+        
+        #btnsearch:hover {
+            color: white;
+            background-color: black;
+        }
+        /* #navbar desining starts*/
+
+
+        #logologin img {
+            margin: 10px 20px;
+            height: 60px;
+            width: 60px;
+            border-radius: 35px;
+            border: 2px solid white;
+            cursor: pointer;
+        }
+
+        #navbar {
+            display: flex;
+            height: 65px;
+            align-items: center;
+            background: rgb(13, 143, 143);
+
+
+
+            justify-content: space-between;
+            top: 0;
+            position: sticky;
+        }
+
+
+        #navbar ul b {
+            display: flex;
+            font-family: 'lato', sans-serif;
+        }
+
+        #navbar ul b li {
+            list-style: none;
+            font-size: 1.0rem;
+            padding: 0px 20px;
+            font-size: 1.0rem
+        }
+
+        #navbar ul b li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        #navbar ul b li a:hover {
+            text-decoration: none;
+            color: black;
+            border-radius: 10px;
+        }
+
+        #logimg img {
+            width: 50px;
+            padding: 10px 120px;
+        }
+
+
+        body {
+            background-image: url("img/loginpic.jpg"); backdrop-filter: blur(20px);
+            background-attachment: fixed;
+            background-size: cover;
+
+        }
+
+        .logi-for {
+            height: 400px;
+            width: 300px;
+            border: 2px solid white;
+            margin: 100px 490px;
+            border-radius: 10px;
+            background-color: rgb(211, 220, 220)
+        }
+
+        .logi-for h2 {
+            color: white;
+            font-family: 'Source Sans Pro', sans-serif;
+            text-align: center;
+            padding-top: 10px
+        }
+
+        .mob {
+            color: white;
+            font-family: 'lato', sans-serif;
+            margin: 25px 13px
+        }
+
+        #usne {
+            height: 25px;
+            width: 270px;
+            margin: 5px 13px;
+        }
+
+        .pas {
+            margin: 13px;
+            font-family: 'Source Sans Pro', sans-serif;
+            color: white
+        }
+
+        #passw {
+            margin: 5px 13px;
+            height: 25px;
+            width: 270px;
+        }
+
+        #btnlog {
+            background-color: blue;
+            color: white;
+            border: blue;
+            height: 20px;
+            width: 80px;
+            margin: 25px 110px;
+            font-family: 'Source Sans Pro', sans-serif;
+            cursor: pointer
+        }
+
+        #btnlog:hover {
+            background-color: white;
+            color: blue;
+            border: white;
+            height: 20px;
+            width: 80px;
+            margin: 25px 112px;
+            font-family: 'Source Sans Pro', sans-serif
+        }
+
+        .logi-for p a {
+            color: blue;
+            text-decoration: none
+        }
+
+        .logi-for p {
+            padding: 13px
+        }
+
+        #btnnew {
+            background-color: rgb(22, 197, 95);
+            color: white;
+            height: 25px;
+            width: 110px;
+            border: rgb(0, 255, 89);
+            margin: 25px 95px
+        }
+
+        .nav-list b li2 a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .btnnew:hover {
+            background-color: white;
+            color: rgb(35, 174, 65);
+            height: 25px;
+            width: 110px;
+            border: white;
+            margin: 25px 95px
+        }
+    </style>
+</head>
+<div style="width:1270px;margin:0px auto;overflow:hidden;">
+
+    <body>
+        <nav class="navbar1">
+            <div class="logo"><a href="index.html"><img src="./img/logo.png"></a></div>
+            <div id="rightthree">
+                <form action="search.html">
+                    <input type="text" id="search1" name="search" placeholder="search - keywords, phrase" required>
+                    <button id="btnsearch">search</button>
+                </form>
+            </div>
+        </nav>
+        <div class="logi-for">
+
+            <div id="logimg"><img src="img/loginpic.png"></div>
+            <form action="index.html">
+                <label for="usne" class="mob">Email or Username</label><br>
+                <input type="text" id="usne" name="user" required placeholder="Email or username"><br>
+
+                <label for="passw" class="pas">password</label><br>
+                <input type="password" id="passw" name="password" required placeholder="Password"><br>
+
+                <a href="index.html"><input type="submit" value="Login" onclick="sing()" id="btnlog"></a>
+                <p><a href="">Forgot password?</a></p>
+            </form>
+            <form action="sign.html">
+                <a href="sign.html"><input type="submit" value="Create account" onclick="singh()" id="btnnew"></a>
+            </form>
+        </div>
+
+
+
+    </body>
+</div>
+
+</html>

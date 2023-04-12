@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>  
+        function rajesh() 
+    { window.alert("You want to create account"); }
+</script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+        /* font-family: 'lato', sans-serif; */
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* #navbar desining starts*/
+        #logo {}
+
+        #logologin img {
+            margin: 10px 20px;
+            height: 60px;
+            width: 60px;
+            border-radius: 35px;
+            border: 2px solid white;
+            cursor: pointer;
+        }
+
+        #navbar {
+            display: flex;
+            height: 65px;
+            align-items: center;
+            background: rgb(13, 143, 143);
+
+
+            font-family: 'lato', sans-serif;
+            justify-content: space-between;
+            top: 0;
+            position: sticky;
+        }
+
+
+        #navbar ul b {
+            display: flex;
+        }
+
+        #navbar ul b li {
+            list-style: none;
+            font-size: 1.0rem;
+            padding: 0px 20px;
+            font-size: 1.0rem
+        }
+
+        #navbar ul b li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        #navbar ul b li a:hover {
+            text-decoration: none;
+            color: black;
+            border-radius: 10px;
+        }
+
+        .nav-list b li2 a {
+            color: black;
+            text-decoration: none;
+        }
+
+        body {
+            background-image: url("img/vikashkumar.jpg");height:100%;background-repeat: no-repeat; background-attachment: fixed;
+  background-size: cover;
+        }
+
+        .diamond img {
+            width: 50px;
+            margin: 10px 40%;
+            border-radius: 30px;
+            height: 45px
+        }
+
+
+        .wholesignup {
+            height: 506px;
+            width: 320px;
+            border: 2px solid white;
+            background-color: rgb(223, 208, 208);
+            border-radius: 15px
+        }
+
+        .fbl {
+            width: 30px;
+            height: 30px
+        }
+
+        .fbl img {
+            width: 100%;
+            height: 100%
+        }
+
+        .twitterv {
+            width: 30px;
+            height: 30px;
+        }
+
+        .twitterv img {
+            width: 100%;
+            height: 100%
+        }
+
+        .ramsiya {
+            display: flex;
+        }
+
+        .wholesignup {
+            margin: 2% 40%;
+        }
+
+        .namefi {
+            margin: 10px 20px
+        }
+
+        #firs {
+            margin: 5px 20px;
+            height: 20px;
+            width: 270px
+        }
+
+        .namela {
+            margin: 10px 20px
+        }
+
+        #lasts {
+            margin: 5px 20px;
+            height: 20px;
+            width: 270px
+        }
+
+        .emailaddr {
+            margin: 10px 20px
+        }
+
+        #ema {
+            margin: 5px 20px;
+            height: 20px;
+            width: 270px
+        }
+
+        .phonel {
+            margin: 10px 20px
+        }
+
+        #emar {
+            margin: 5px 20px;
+            height: 20px;
+            width: 270px
+        }
+
+        .pas {
+            margin: 10px 20px
+        }
+
+        #passw {
+            margin: 5px 20px;
+            height: 20px;
+            width: 270px
+        }
+
+        .pasa {
+            margin: 10px 20px
+        }
+
+        #copassw {
+            margin: 5px 20px;
+            height: 20px;
+            width: 270px
+        }
+
+        #btnnew {
+            margin: 10px 110px;
+            color: white;
+            background-color: blue;
+            border: 2px solid blue
+        }
+
+        .wholesignup p {
+            color: blue;
+            padding: 10px 110px;
+            cursor: pointer
+        }
+
+        .ramsiya {
+            margin-left: 90px;
+        }
+
+        .fbl {
+            padding: 0px 30px
+        }
+  
+        .logo{width:50px;height:50px;margin-left:10px;cursor: pointer;}
+        .logo img{width:100%;height:100%;border-radius:40px;border:1.6px solid white;}
+        
+        
+        .navbar1 {
+            display: flex;
+            height: 10vh;background-color:#205786;justify-content:space-between;align-items :center;
+        
+        }
+      
+        
+        #rightthree {
+           
+            margin-right:20px;
+        }
+        
+        
+        #search1 {
+            width: 33vh;
+            height: 5vh;
+        }
+        
+        #search1:hover {
+            background-color: white;
+        }
+        
+        #btnsearch {
+            width: 10vh;
+            height: 5.7vh;
+            margin-left: -5px;
+        }
+        
+        #btnsearch:hover {
+            color: white;
+            background-color: black;
+        }
+
+
+    </style>
+</head>
+ <div style="width:1270px;margin:0px auto;overflow:hidden;"> 
+<body>
+
+    <nav class="navbar1">
+        <div class="logo"><a href="index.html"><img src="./img/logo.png"></a></div>
+        <div id="rightthree">
+            <form action="search.html">
+                <input type="text" id="search1" name="search" placeholder="search - keywords, phrase" required>
+                <button id="btnsearch">search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="logi-for">
+        <div class="wholesignup">
+            <div class="diamond"><img src="img/signup.com.png"></div>
+
+            <form action="index.html" autocomplete="on">
+                <label for="firs" class="namefi">First Name</label><br>
+                <input type="text" id="firs" name="first name" required><br>
+
+
+                <label for="lasts" class="namela">Last Nmae</label><br>
+                <input type="text" id="lasts" name="last name" required><br>
+
+                <label for="ema" class="emailaddr">Email Address</label><br>
+                <input type="text" id="ema" name="email" required><br>
+
+                <label for="pho" class="phonel">Phone Number</label><br>
+                <input type="text" id="emar" name="phone number" required><br>
+
+                <label for="passw" class="pas">password</label><br>
+                <input type="password" id="passw" name="password" required><br>
+
+                <label for="copassw" class="pasa">Confirm password</label><br>
+                <input type="password" id="copassw" name="password" required>
+                <br>
+                
+                <a href="index.html"><input type="submit" value="Create Account" onclick="rajesh()" id="btnnew"></a>
+            </form>
+            <p>Or login using</p>
+            <div class="ramsiya">
+                <div class="fbl">
+                    <a href="https://www.facebook.com/lite"><img
+                            src="https://th.bing.com/th/id/R.2bad70f2d08429a28dfbebd4c237924b?rik=3FH3qKqmkGzpdQ&riu=http%3a%2f%2flawyersandsettlements.com%2fblog%2fwp-content%2fuploads%2f2015%2f09%2ffacebook-logo.png&ehk=xPhuJKffftYjmx7Hg1QatmG2kML6F1Ds64v%2bn541m88%3d&risl=&pid=ImgRaw&r=0"
+                            alt="Facebook"></a>
+                </div>
+                <div class="twitterv">
+                    <a href="https://twitter.com"><img
+                            src="https://pbs.twimg.com/profile_images/1488548719062654976/u6qfBBkF_400x400.jpg"
+                            alt="Twitter"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+</body>
+</div>
+</html>

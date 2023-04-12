@@ -3,10 +3,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 /*font-family: 'Source Sans Pro', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+/* font-family: 'lato', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+/*font-family: 'Source Sans Pro', sans-serif; */
 
 
 .one p{color:red;}
 .one p:hover{color:blue}
+.logo{width:50px;height:50px;margin-left:10px;cursor: pointer;}
+.logo img{width:100%;height:100%;border-radius:40px;border:1.6px solid white;}
 
 
 * {
@@ -45,6 +52,27 @@
     color: white;
     background-color: black;
 }
+#twoleft{display:flex;}
+
+#twoleft ul b li {
+    list-style: none;
+    font-size: 1.0rem;
+    
+}
+
+#twoleft ul b li a {
+    text-decoration: none;
+    color: white;
+}
+
+#twoleft ul b li a:hover {
+    text-decoration: none;
+    color: black;
+   
+}
+
+
+
 
 #twoleft ul b {
     display: flex;
@@ -279,7 +307,7 @@ for the slideshow */
 .aal {
     
     display: flex;
-    border:2px solid red;margin-top:50px;
+    margin-top:70px;
 }
 
 .aal h3 {
