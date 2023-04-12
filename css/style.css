@@ -246,7 +246,7 @@ for the slideshow */
 
 .bio1 {
     width: 120vh;
-    margin-left: 40vh;
+    margin:auto;
     /* padding-left:5vh;padding-right:5vh; */
     margin-top: 10vh;border:2px solid rgb(167, 165, 165);border-radius:7px;padding:7vh;text-align:justify;
 }
